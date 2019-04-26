@@ -1,0 +1,19 @@
+.sub-menu {
+    display: none;    
+}
+li:hover > .sub-menu {
+    display: block;  
+    color: red; 
+    font-style: italic;
+}
+ul {
+    color: brown;
+    font-size: 30px;
+}
+li:hover > .sub-menu > li:hover > .sub-menu {
+    display: block;  
+    color: green;
+}
+img {
+    height: 150px;
+}
