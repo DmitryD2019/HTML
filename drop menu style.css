@@ -13,7 +13,24 @@ ul {
 li:hover > .sub-menu > li:hover > .sub-menu {
     display: block;  
     color: green;
+
 }
 img {
     height: 150px;
+}
+#ddd li {
+display:inline;
+}
+.modal {
+    display: none;
+}
+.modal:target {
+    display:block;
+	position:absolute;
+	top: 70px;
+	left: 70px;
+	bottom: 70px;
+	right: 70px;
+    background-image: url(img2.jpg);
+    background-size: 55%;
 }
