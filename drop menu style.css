@@ -1,25 +1,36 @@
 .sub-menu {
     display: none;    
 }
-li:hover > .sub-menu {
-    display: block;  
-    color: red; 
-    font-style: italic;
-}
-ul {
+ul > li {
+    display: inline;
     color: brown;
     font-size: 30px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+li:hover > .sub-menu {
+    display: block;  
 }
 li:hover > .sub-menu > li:hover > .sub-menu {
-    display: block;  
-    color: green;
-
+   display: block; 
 }
+
+
 img {
     height: 150px;
 }
+#ggg li {
+    display:block;
+    }
 #ddd li {
-display:inline;
+display:block;
+}
+#ttt li {
+    display:block;
+    }
+#ppp li {
+    display:block;
 }
 .modal {
     display: none;
